@@ -8,7 +8,8 @@ import "./Jargon.css";
 
 // to deal with CORS-related issues and other constants
 const CORS_API_URL = "https://cors-anywhere.herokuapp.com/";
-const REACT_APP_API_KEY = "1ac76a8ce51442738b51ba627fd92210";
+const REACT_APP_API_KEY =
+  process.env.REACT_APP_API_KEY || "1ac76a8ce51442738b51ba627fd92210";
 const JARGONSTEIN_EXPRESS_SERVER =
   "https://jargonstein-express-server.herokuapp.com/jargon";
 

@@ -1,0 +1,21 @@
+.app-grid-container {
+  display: grid;
+  grid-gap: 0;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+body {
+  background: #757f9a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d7dde8,
+    #757f9a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d7dde8,
+    #757f9a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

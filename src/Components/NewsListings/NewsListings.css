@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,500,900");
+
+.grid-container {
+  display: grid;
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+}
+
+.grid-item-jargon {
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 125%;
+  color: black;
+  margin-bottom: 0;
+}
+
+.grid-item-explanation {
+  color: black;
+  margin-top: 0;
+  line-height: 150%;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.grid-item-button {
+  text-align: center;
+  padding: 5px;
+}
+
+.newslistings-button {
+  height: 50px;
+  width: 200px;
+  background: black;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 125%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.newslistings-button:hover {
+  background: rgb(80, 78, 78);
+  color: yellow;
+}
+
+.newslistings-button:focus {
+  outline: none;
+}
+
+.intro-line-to-listings {
+  font-weight: 200;
+  font-size: 125%;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+
+.grid-item-newsListings {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: solid 1px white;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 3%;
+  background: transparent;
+  line-height: 150%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 100%;
+}
+
+.newslistings-link {
+  text-decoration: none;
+  color: black;
+}
+
+.newslistings:hover {
+  background: gray;
+  color: white;
+}
+
+#newslistings-span {
+  font-weight: 500;
+  color: black;
+}
+
+.fade-in {
+  animation: fadeIn 1s;
+}
+
+li {
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

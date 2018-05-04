@@ -4,17 +4,17 @@
   height: auto;
   width: auto;
   margin-bottom: 1%;
-  background: gray;
   color: black;
+  background: white;
+  border: solid 1px black;
   font-size: 75%;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .copyButton:hover {
-  background: black;
-  color: white;
+  background: gray;
 }
 
 .notification-container {
